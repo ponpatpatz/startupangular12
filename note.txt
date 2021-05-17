@@ -357,6 +357,9 @@ ng build --prod --project="exampleApp"
 ng serve  --hmr
 
 
+ng build --prod --base-href /startupangular12/ --output-path docs
+
+
 
 <div class="container">
   <div class="row">
