@@ -1,0 +1,407 @@
+
+
+
+** ติดตั้ง Angular **
+npm install -g @angular/cli
+
+** คำสั่งสร้างใหม่ **
+1. ng new startup-angular12 --strict --skip-tests
+2. ng new startup-angular10 --skip-tests
+
+** tsconfig.app.json <=เพิ่ม **
+  "angularCompilerOptions": {
+    "enableIvy": false
+  }
+
+** หาจำนวนวันในเดือนนั้น **
+moment().daysInMonth();
+moment("2012-02", "YYYY-MM").daysInMonth() // 29
+moment("2012-01", "YYYY-MM").daysInMonth() // 31
+
+** git **
+#ลบ
+git remote -v
+git remote rm origin
+git config --global --list
+
+#แก้ไข
+git add .
+git commit -m "update install"
+git push -u origin master
+
+** lodash **
+assignIn // push json 2 json
+
+** ติดตั้ง Angular **
+
+npm install -g @angular/cli
+ng new myApp --skip-tests
+
+
+** ติดตั้งเพิ่ม **
+
+ng add @angular/pwa
+
+** gitlab **
+git remote -v
+git remote rm origin
+git config --global --list
+** อัพเดท **
+git add .
+git commit -m "update add shareds"
+git push -u origin master
+
+** text comment **
+##gitlab###############################
+git remote -v
+git remote rm origin
+git config --global --list
+#อัพเดท
+git add .
+git commit -m "update theme"
+git push -u origin master
+#######################################
+
+hidden-xs
+   document.body.className = 'no-skin';
+                <pdf-viewer src="http://203.157.182.14:3002/download/file/1551757046668_แบบ บก.01 ตารางแสดงวงเงินงบประมาณที่ได้รับจัดสรรและราคากลางในงานจ้างก่อสร้าง (2).pdf"
+  [render-text]="true" style="display: block;"></pdf-viewer>
+
+
+git remote -v
+git remote rm origin
+git config --global --list
+#แก้ไข
+
+git add .
+git commit -m "update theme"
+git push -u origin master
+
+status_general
+status_staff
+status_admin
+status_admin_general
+status_admin_staff
+status_admin_super
+status_super
+
+      this.model.e_proj = (this.model.e_proj) ? 'P' : '';
+
+let-rowIndex="rowIndex"
+    				<a role="button" (click)="sentToLogout()">ออกจากระบบ
+    					<i class="fa fa-fw fa-sign-out"></i>
+    				</a>
+
+					<nav class="breadcrumb">
+  <a class="breadcrumb-item" role="button">ข้อมูลส่วนบุคคล</a>
+  <span class="breadcrumb-item active">สถานที่ปฎิบัติงาน</span>
+</nav>
+
+model.num_cc|number:'1.0-1'
+
+data-backdrop="static"
+
+(change)="SUPPLY_COMMENT.value=''"
+#SUPPLY_COMMENT
+
+<input (keydown.enter)="...">
+<input (keydown.a)="...">
+<input (keydown.esc)="...">
+<input (keydown.shift.esc)="...">
+<input (keydown.control)="...">
+<input (keydown.alt)="...">
+<input (keydown.meta)="...">
+<input (keydown.9)="...">
+<input (keydown.tab)="...">
+<input (keydown.backspace)="...">
+<input (keydown.arrowup)="...">
+<input (keydown.shift.arrowdown)="...">
+<input (keydown.shift.control.z)="...">
+<input (keydown.f4)="...">
+(eventMouseover)="MouseOver($event)"
+
+  document.getElementById('cancelLoginEsalay').click();
+
+hidden-xs
+
+  | slice:0:2 limid
+[ngClass]="{'has-success': model.room_id,'has-error': !model.room_id}"
+  [ngClass]="{active: step==='step3'}" (click)="step='step3'"
+
+  <div class="clearfix"></div>
+
+  [ngStyle]="{'color':userData[0].body_height| bmiColor:userData[0].body_weight}"
+
+  target="_blank"
+let item of yaerData| slice:0:5
+  [innerHTML]="car.JOB_NAME"
+
+      this.stockData = this._lodash.filter(this.stockDataClone, function (o) {
+      if (o['CAT_ID'] === cat.CAT_ID) { return o; }
+    });
+
+    style="overflow-y: auto; height: 500px;"
+    http://127.0.0.1:5504/?dbName=healthychaiyaphum
+    http://164.115.22.73:5506/?dbName=healthychaiyaphum
+    http://127.0.0.1:5505/uploadFileDataAuth?token={{token}}
+
+
+      calendarOptions: Options;
+  ngOnInit() {
+    this.calendarOptions = {
+      editable: true,
+      eventLimit: false,
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,agendaWeek,agendaDay,listMonth'
+      },
+      events: [
+        {
+          title: 'New event',
+          start: '2019-02-07',
+          end: '2019-02-10'
+        },
+        {
+          title: 'New event',
+          start: '2019-02-07',
+          end: '2019-02-10'
+        },
+        {
+          title: 'New event',
+          start: '2019-02-10',
+          end: '2019-02-11'
+        }
+      ],
+      eventColor: '#378006'
+    };
+  }
+
+  clickButton(model: any) {
+    console.log(model, 'clickButton');
+    // this.displayEvent = model;
+  }
+  eventClick(model: any) {
+    console.log(model, 'eventClick');
+    model = {
+      event: {
+        id: model.event.id,
+        start: model.event.start,
+        end: model.event.end,
+        title: model.event.title,
+        allDay: model.event.allDay
+        // other params
+      },
+      duration: {}
+    };
+    // this.displayEvent = model;
+  }
+  updateEvent(model: any) {
+    console.log(model, 'updateEvent');
+    model = {
+      event: {
+        id: model.event.id,
+        start: model.event.start,
+        end: model.event.end,
+        title: model.event.title
+        // other params
+      },
+      duration: {
+        _data: model.duration._data
+      }
+    };
+    // this.displayEvent = model;
+  }
+
+  <form>
+  <section class="form-block">
+    <div class="form-group">
+      <label for="formFields_13">ผู้ส่งโครงการ ** :</label>
+      <input name="number_code" placeholder="เลขที่หนังสือ" >
+    </div>
+  </section>
+</form>
+
+.style343 {
+    width: 26px;
+    height: 406px;
+}
+
+
+  onUploadimage(ev) {
+    const f = ev.target.files[0].name;
+    const t = this._lodash.split(f, '.');
+    const s = this._lodash.size(t);
+    const r = t[s - 1];
+    if (r === 'jpeg' || r === 'jpg') {
+      this.selectFile = ev.target.files[0];
+    } else {
+      this._alertService.showError('เฉพาะไฟล์รูปภาพ .jpeg,.jpg เท่านั้น กรุณาเลือกไฟล์รูปภาพใหม่');
+      this.selectFile = null;
+    }
+  }
+
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+==================================พิมพ์==============================
+<div id="print-section">
+  // your html stuff that you want to print
+</div>
+<button (click)="print()">print</button>
+  print(i): void {
+    let printContents, popupWin;
+    printContents = document.getElementById('print-section' + i).innerHTML;
+    popupWin = window.open('', '_blank', 'top=0,left=0,height=100%,width=auto');
+    popupWin.document.open();
+    popupWin.document.write(`
+      <html>
+        <head>
+          <title>Print tab</title>
+          <style>
+          //........Customized style.......
+          </style>
+        </head>
+    <body onload="window.print();window.close()">${printContents}</body>
+      </html>`
+    );
+    popupWin.document.close();
+  }
+
+
+=======รูปภาพ base64====
+
+      const file = ev.target.files[0];
+    const reader = new FileReader();
+    reader.onloadend = function () {
+      console.log('RESULT', reader.result);
+    };
+    reader.readAsDataURL(file);
+
+
+
+  loading 1
+  <div class="loader">
+  <span>Loading...</span>
+</div>
+
+
+declare const $: any;
+$('#modal-add-position').modal('hide');
+
+
+data-backdrop="static" data-toggle="modal" data-target="#exampleModal"
+<!-- Modal -->
+<div class="modal fade  modal-fs" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">
+          Modal title
+        </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        1<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>
+        2<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>
+        3<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>
+        4
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+
+        <button type="button" class="btn btn-primary">
+          Save changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+ng new startupAngular12 --createApplication="false"
+
+
+ng new r9referApps --createApplication="false"
+
+ng generate application gettingStarted
+
+
+
+Ng g app name —skip-tests
+
+3
+4
+5
+ 
+ng serve exampleApp
+OR
+ng serve --project="exampleApp"
+
+
+ng build --prod --project="gettingStarted"
+ng build --prod --project="exampleApp"
+
+ng serve  --hmr
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      Level 1: .col-sm-3
+    </div>
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-12 col-sm-12" *ngFor="let item of [1,2,3,4,5,6,7,8,90,9,5,5,5,5,5,1]">
+          Level 2: .col-8 .col-sm-6
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+css
+          "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/bootstrap4-light-purple/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
+              "./node_modules/font-awesome/css/font-awesome.min.css",
+              "./node_modules/animate.css/animate.min.css",
+              "./node_modules/sweetalert2/dist/sweetalert2.min.css",
+              "./node_modules/quill/dist/quill.core.css",
+              "./node_modules/quill/dist/quill.snow.css",
+              "./node_modules/fullcalendar/dist/fullcalendar.min.css",
+              "./node_modules/leaflet/dist/leaflet.css",
+
+              js
+                  "./node_modules/sweetalert2/dist/sweetalert2.min.js",
+              "./node_modules/quill/dist/quill.js"
+
+
+  "angularCompilerOptions": {
+    "enableIvy": false
+  }
+
+
+(keydown.enter)="doLogin()"
+
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="อีเมลหรือหมายเลขโทรศัพท์มือถือ" autofocus="1" aria-label="อีเมลหรือหมายเลขโทรศัพท์มือถือ">
+
+
+
+window.location.href = `http://refer.r9hub.net`;

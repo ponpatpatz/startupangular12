@@ -1,0 +1,92 @@
+** Install **
+
+ng add @angular/pwa
+
+npm install font-awesome --save [OK]
+"node_modules/font-awesome/css/font-awesome.min.css",
+
+
+npm install primeng --save [OK]
+npm install primeicons --save [OK]
+"node_modules/primeicons/primeicons.css",
+"node_modules/primeng/resources/themes/bootstrap4-light-purple/theme.css",
+"node_modules/primeng/resources/primeng.min.css",
+
+
+npm install @angular/cdk --save [OK]
+import { ScrollingModule } from '@angular/cdk/scrolling';
+
+npm install sweetalert2@6.6.8 --save [OK]
+"node_modules/sweetalert2/dist/sweetalert2.min.css",
+"node_modules/sweetalert2/dist/sweetalert2.min.js",
+import swal from 'sweetalert2';
+
+npm install animate.css --save [OK]
+"node_modules/animate.css/animate.min.css",
+
+npm install quill --save [OK]
+"node_modules/quill/dist/quill.core.css",
+"node_modules/quill/dist/quill.snow.css",
+"node_modules/quill/dist/quill.js"
+
+npm install fullcalendar@3.6.1 --save [OK]
+npm install ng-fullcalendar@1.6.2 --save [OK]
+npm install --save-dev @types/jquery [OK]
+"node_modules/fullcalendar/dist/fullcalendar.min.css",
+import { FullCalendarModule } from 'ng-fullcalendar';
+
+npm install leaflet --save
+npm install @asymmetrik/ngx-leaflet --save
+npm install --save-dev @types/leaflet
+"node_modules/leaflet/dist/leaflet.css",
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+
+npm install hammerjs --save [OK]
+import 'hammerjs';
+
+npm install highcharts --save [OK]
+import * as Highcharts from 'highcharts'; //Base
+
+npm install @auth0/angular-jwt --save [OK]
+import { JwtHelperService } from '@auth0/angular-jwt'; //Base
+
+npm install crypto-js@3.1.9-1 --save [OK]
+import * as CryptoJs from 'crypto-js';
+
+npm install @ckeditor/ckeditor5-angular --save [OK]
+npm install @ckeditor/ckeditor5-build-classic --save [OK]
+import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+
+npm install ng2-pdf-viewer --save [OK]
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
+npm install xlsx --save [OK]
+npm install file-saver --save [OK]
+
+npm install ng2-truncate --save [OK]
+
+npm install mydatepicker@ng9 --save [OK]
+import { MyDatePickerModule } from 'mydatepicker';
+
+npm install mydaterangepicker@ng9 --save [OK]
+import { MyDateRangePickerModule } from 'mydaterangepicker';
+
+npm install ngx-qrcode2 --save [OK]
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+
+npm install pdfmake --save [OK]
+import pdfMake from 'pdfmake/build/pdfmake'; //Base
+import pdfFonts from 'pdfmake/build/vfs_fonts'; //Base
+
+npm install socket.io-client --save [OK]
+npm install @types/socket.io-client --save-dev [OK]
+import * as io from 'socket.io-client'; //Base
+
+npm install thai-baht-text --save [OK]
+import ThaiBaht from 'thai-baht-text'; //Base
+
+npm install ngx-signaturepad --save [OK]
+import { SignaturePadModule } from 'ngx-signaturepad';
+
+
+
